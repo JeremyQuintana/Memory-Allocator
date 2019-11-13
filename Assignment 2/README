@@ -1,0 +1,21 @@
+Author: Jeremy Quintana
+
+TO RUN:
+make
+./run <strategy> <testiterations> <threads>
+
+TO CLEAN:
+make clean
+
+
+<strategy>: what fit strategy is desired
+First Fit = 1
+Best Fit = 2
+Worst Fit = 3
+
+<testiterations>: how many iterations of the experiment to run on allocator
+Any integer
+
+<threads>: max amount of threads to run for the experiment
+Any integer
+
